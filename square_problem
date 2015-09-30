@@ -87,9 +87,8 @@ public class PointMain {
         if( ( distance(points[0], points[1]) == distance(points[0], points[2]) )//1:2 = 1:3
             && ( distance(points[0], points[1]) == distance(points[1], points[3]) )//1:2 = 2:4
                 &&( distance(points[0], points[1]) == distance(points[2], points[3]) )//1:2 = 3:4
-                    &&( distance(points[0], points[1]) == distance(points[2], points[3]) )//1:2 = 3:4
-                        &&( distance(points[0], points[3]) == distance(points[1], points[2]) ) )//1:4= 2:3 - diagonala
-                            return true;
+                    &&( distance(points[0], points[3]) == distance(points[1], points[2]) ) )//1:4= 2:3 - diagonala
+                        return true;
 
         return false;
     }
