@@ -1,3 +1,1 @@
-#penta
-
-#Razvan Maldarus
+- Penta / Razvan Maldarus
